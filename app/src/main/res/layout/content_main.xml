@@ -8,14 +8,6 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Main_page"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/view"
@@ -46,4 +38,87 @@
         app:layout_constraintTop_toBottomOf="@+id/view"
         app:layout_constraintVertical_bias="0.905"
         app:srcCompat="@drawable/ic_action_name" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="260dp"
+        android:text="Calender"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_marginTop="530dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_marginTop="670dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="331dp"
+        android:text="Goals"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_marginTop="812dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="402dp"
+        android:text="Body Weight and Calories"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_marginTop="955dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/planner"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
